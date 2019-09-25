@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    ev3.waitForIRProximity(on: .four, lessThanOrEqualTo: 25
+    )
+    ev3.motorOn(on: .b, withPower: -100.0)
+    ev3.motorOn(on: .c, withPower: 30.0)
+    ev3.waitForIRProximity(on: .four, greaterThanOrEqualTo: 30
+    )
+    ev3.motorOff(on: .b, brakeAtEnd: false)
+    ev3.motorOff(on: .c, brakeAtEnd: false)
+</string>
+			<key>ModifiedRange</key>
+			<string>{821, 307}</string>
+			<key>OriginalContent</key>
+			<string>    ev3.waitForTouch(on: .four)
+    ev3.motorOn(on: .a, withPower: 100.0)
+    ev3.waitForTouchReleased(on: .four)
+    ev3.motorOff(on: .a, brakeAtEnd: false)
+</string>
+			<key>OriginalRange</key>
+			<string>{821, 158}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document1.playgroundchapter/Pages/02.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
